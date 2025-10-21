@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 80vh;
+    gap: 3px;
+    margin: auto;
+
+}
+
+section img {
+    width: 15%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 2px solid whitesmoke;
+    transition: width 0.3s ease-in-out;
+}
+
+section img:hover {
+    width: 50%;
+}
